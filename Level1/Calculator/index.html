@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>    
+</head>
+<body>
+  <div class="calculator-container d-flex flex-column justify-content-center align-items-center"> 
+  <h1 class="heading">CALCULATOR</h1>
+    <div class="calculator d-flex flex-column align-items-center">
+        <div class="input-container">
+            <input class="input-container" type="text" id="display" />
+        </div>
+        <div class="buttons-container mt-4">
+            <div class="container grid-container">
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('+')">+</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('-')">-</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('*')">x</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="cancelLastCharacter()"><i class="fa-solid fa-delete-left"></i></button>
+                <button onclick="clearDisplay()" id="clear">C</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="appendToDisplay('/')">/</button>
+                <button onclick="appendToDisplay('.')" ><b>.</b></button>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

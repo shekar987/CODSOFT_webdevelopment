@@ -1,0 +1,151 @@
+
+.navbar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-image: linear-gradient(90deg, #a7dece, #96e484, #b1de5d); 
+    background-color: transparent; 
+} 
+.logo-label{
+    font-family:cursive;
+    text-decoration:underline;
+}
+ .menu-list { 
+    display: flex; 
+    list-style: none; 
+} 
+ .menu-list-items { 
+    padding: 0.5rem 0.5rem; 
+    font-size: large;
+} 
+.links:hover { 
+    color: black;
+   
+} 
+  
+.links { 
+    border-bottom: 2px solid transparent; 
+    transition: all 0.25s; 
+    padding: 30px; 
+    text-decoration: none; 
+    color: #fff; 
+} 
+.greet-heading,.my-heading{
+    font-style: italic;
+    color: #7830e3;
+}
+.headings{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.follow-me-icon-container {  
+    margin-top: 13px;
+    padding: 15px;
+  }
+  .icon {
+    z-index: 10;
+    font-size: 35px;
+  }
+  .i1{
+    color: rgb(106, 104, 104);
+  }
+  .i2{
+    color: #0A66C2;
+  }
+  .i3{
+    color: #316FF6;
+  }
+#image{
+height:450px;
+width: 450px;
+background-size: cover;
+border-radius: 15px;
+}
+.services-container{
+  margin-top: 150px;
+}
+#services-pic{
+    height: 550px;
+    width: 650px;
+    border-radius: 20%;
+}
+.services-info-heading{
+  font-style: italic;
+  color: rgb(234, 105, 13);
+}
+.services-info-tagline{
+  font-size: large;
+  font-family: sans-serif ;
+}
+.services-info-list{
+padding: 1rem 2rem;
+font-size: large;
+list-style-type: disclosure-closed;
+}
+li{
+  margin-top: 15px;
+}
+.frontend-percentage,
+.backend-percentage,
+.programming-percentage,
+.frontend-remaining-percentage,
+.backend-remaining-percentage,
+.programming-remaining-percentage {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.frontend-percentage,
+.backend-percentage,
+.programming-percentage  {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(115, 81, 237);
+}
+.frontend-remaining-percentage,
+.backend-remaining-percentage,
+.programming-remaining-percentage {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(122, 124, 126);
+}
+
+.frontend-percentage {
+    width: 85%;
+}
+
+.backend-percentage {
+    width: 73%;
+}
+
+.programming-percentage {
+    width: 60%;
+}
+
+.frontend-remaining-percentage {
+    width: 15%;
+}
+
+.backend-remaining-percentage {
+    width: 27%;
+}
+
+.programming-remaining-percentage {
+    width: 40%;
+}
+.project-description-indicator{
+  margin-top: 6px;
+  padding-right: 5px;
+}
+.project-container{
+  margin-top: 50px;
+  font-style:italic;
+  font-size: large;
+  font-weight: 30px;
+}
+.contact{
+background: #5188ff;
+}

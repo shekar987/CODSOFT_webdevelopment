@@ -1,0 +1,67 @@
+.header{
+    background-image: linear-gradient(to bottom right, rgb(102, 101, 110),rgb(140, 236, 140));
+}
+.name{
+  font-style: italic;
+  text-shadow: 1px 1px rgb(103, 106, 111);
+}
+.follow-us-icon-container {  
+    padding: 15px;
+  }
+  .icon {
+    z-index: 10;
+    color: black;
+    font-size: 35px;
+  }
+  .entry-container{
+    height: 500px;
+    background-image: url(https://www.learneasy.lk/uploads/1608/banner-1.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .head-container{
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 60%;
+    justify-content: space-around;
+  }
+  #quote{
+    padding-top: 20px;
+    color: rgb(110, 53, 20);
+    font-family: cursive;
+  }
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: center;
+  }
+  .courses{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/752/658/large_2x/abstract-white-and-grey-background-subtle-abstract-background-blurred-patterns-light-pale-background-free-vector.jpg);
+    height: 350px; 
+  }
+  body{
+    padding-bottom:10px ;
+  }
+  .coding-image-container{
+
+    background-color: rgb(225, 129, 69);
+  }
+
+ #coding-image{
+  width: 60%;
+ }
+ .registration{
+  margin-left: 150px;
+ }
+ #Register-button{
+  color: rgb(234, 185, 25);
+  border-style: solid;
+  border-color: rgb(41, 39, 38);
+  background-color: black;
+  font-size: large;
+  padding: 15px;
+  margin-left: 64px;
+  border-radius: 20px;
+ }
