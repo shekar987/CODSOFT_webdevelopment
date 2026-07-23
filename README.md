@@ -1,2 +1,2 @@
 # CODSOFT_webdevelopment
-front-end developer internship
+front-end development
